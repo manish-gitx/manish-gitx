@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @manish
 - 👀 I’m interested in...full-stack development and also solving ds&algo
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on ...anything related to web-dev
 - 📫 How to reach me ...text me in linkedin Manish Rachakonda
