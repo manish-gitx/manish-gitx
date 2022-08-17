@@ -2,7 +2,8 @@ package ConditionalsAndLoops;
 
 public class first {
     public static void main(String[] args) {
-        System.out.println("hacked");
+        int a =10;
+        System.out.println("hacked="+ a);
     }
     
 }
