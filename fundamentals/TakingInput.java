@@ -15,6 +15,7 @@ public class TakingInput {
         
         String stri;
         stri=s.next();
+        //char ch=s.next().charAt(0);
         char ch=stri.charAt(0);
         System.out.println(ch);
 
