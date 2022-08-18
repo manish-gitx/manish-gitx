@@ -8,6 +8,7 @@ public class ArithemeticOperators {
         int a,b;
         a=5;
         b=2;
+       
         System.out.println(a+b*2);
         System.out.println("Above case b*2 is done and then added to  int a,so the ans is 9");
         System.out.println((a+b)*2);
@@ -17,7 +18,9 @@ public class ArithemeticOperators {
        float c,d;
        c=5;
        d=2;
-       System.out.println(c/d);
+       System.out.println(c%d+" is remainder");//gives remainder and also divides the number only  one time
+       System.out.println(c/d+"  in float and divides until reminder comes 0 or recuring ");
+       System.out.println(a/b+"  a=5 b=2 2/5 value is in integer");
         System.out.println("We used same data type and ans is in the same data type form");
 
         
