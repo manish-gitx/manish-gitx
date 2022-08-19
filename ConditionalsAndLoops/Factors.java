@@ -11,7 +11,7 @@ public class Factors {
             if(n%i==0){
                 System.out.print(i+" ");
             }
-        i=i+1;
+            i=i+1;
         }
     in.close();
     }
