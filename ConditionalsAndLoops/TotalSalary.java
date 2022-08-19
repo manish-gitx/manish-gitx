@@ -16,8 +16,8 @@ public class TotalSalary {
             if(alpha==i){
                 a=allow;
             }
-        allow=allow-200;
-        i=i+1;
+            allow=allow-200;
+            i=i+1;
         }
         hra=(20/100.0)*basic;
         da=(50/100.0)*basic;
