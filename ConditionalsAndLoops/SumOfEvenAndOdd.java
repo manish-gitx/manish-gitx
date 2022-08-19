@@ -8,9 +8,8 @@ public class SumOfEvenAndOdd {
         int n=in.nextInt();
         int even=0;
         int odd =0;
-        int New=0;
         while(n>0){
-            New=n%10;
+            int New=n%10;
             if(New%2==0){
                 even=even+New;
             }else{
