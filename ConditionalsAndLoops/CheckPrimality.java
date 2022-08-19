@@ -13,7 +13,7 @@ public class CheckPrimality {
                 in.close();
                 return;//return statement will return to main so ntg will be excuted
             }
-        i=i+1;    
+            i=i+1;    
         }
     System.out.println("prime");
     in.close();
