@@ -6,7 +6,7 @@ public class CharactersStore {
         // int b=Integer.MIN_VALUE;
         // System.out.println(a +" is max value "+b+" is min value");
 
-        int i='a';
+        int i='a'+3;
         System.out.println('a'+3);
         System.out.println(i);
         
