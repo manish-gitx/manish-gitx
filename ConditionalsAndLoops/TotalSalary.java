@@ -23,9 +23,29 @@ public class TotalSalary {
         da=(50/100.0)*basic;
         pf=(11/100.0)*basic;
         double salary=basic+hra+da+a-pf;
-        salary = (int)(salary +0.5);
-        System.out.println(salary);
+        //salary = (int)(salary +0.5);
+        System.out.println(Math.round(salary));
         in.close();
     }
     
 }
+/* t basic = s.nextInt();
+char grade = s.next().charAt(0);
+double hra = 0.2 * basic;
+double da = 0.5 * basic;
+int allowance;
+if(grade == 'A') {
+allowance = 1700;
+}
+else if(grade == 'B') {
+allowance = 1500;
+}
+else {
+allowance = 1300;
+}
+double pf = 0.11 * basic;
+double totalSalary = basic + hra + da + allowance - pf;
+int ans = (int) Math.round(totalSalary); //An internal function implemented in the
+Math class(no need to import as it is available as default) to round off the decimal values
+System.out.println(ans);
+ */
