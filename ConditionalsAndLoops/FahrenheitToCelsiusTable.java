@@ -15,6 +15,7 @@ public class FahrenheitToCelsiusTable {
 
 
         }
+    in.close();
         
     }
     
