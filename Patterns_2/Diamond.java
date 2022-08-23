@@ -41,7 +41,7 @@ public class Diamond{
             System.out.print("*");
             stars=stars+1;
         }
-        np=np-2;
+        np=np-4;
         i=i+1;
         System.out.println();
 
