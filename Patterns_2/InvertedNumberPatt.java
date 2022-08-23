@@ -17,5 +17,6 @@ public class InvertedNumberPatt{
             i=i+1;
         
         }
+        in.close();
     }
 }
