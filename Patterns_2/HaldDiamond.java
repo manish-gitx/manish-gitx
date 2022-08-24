@@ -28,7 +28,6 @@ public class HaldDiamond {
             }
             System.out.println();
             row=row+1;
-            
         }
         while(n2>=1){
             int num=1;
@@ -51,6 +50,7 @@ public class HaldDiamond {
         }
         if(n==0){
             System.out.println("*");
+        in.close();
         }
     }
     
