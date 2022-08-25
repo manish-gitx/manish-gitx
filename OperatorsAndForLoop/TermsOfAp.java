@@ -12,6 +12,7 @@ public class TermsOfAp {
             else{
                 System.out.print(a+" ");
             }
+        in.close();
         }
     }
     
