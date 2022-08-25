@@ -18,6 +18,7 @@ public class AllPrimeNumbers {
             if(flag==true){
                 System.out.println(prime);
             }
+        in.close();
         }
 
 
