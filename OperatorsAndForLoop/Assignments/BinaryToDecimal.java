@@ -15,7 +15,7 @@ public class BinaryToDecimal {
             n=n/10;
         }
         System.out.println(digi);
-        
+        in.close();
         // int t=0;
         // for(int a=0,i=0; n>0; n=n/10,i=i+1){
         //     a=n%10;
@@ -34,8 +34,6 @@ public class BinaryToDecimal {
         // }
         // System.out.println(t);
              
-        // in.close();
-        
     }
     
 
