@@ -30,6 +30,7 @@ public class Sequence {
                 prev=last;
 
            }
+           in.close();
         }
         System.out.println(cond);
 
