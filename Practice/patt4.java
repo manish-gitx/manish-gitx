@@ -23,6 +23,7 @@ public class patt4 {
             }
             System.out.println();
         }
+        in.close();
 
 /*
 12344321
