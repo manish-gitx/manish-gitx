@@ -8,9 +8,9 @@ public class DecimalToBinary {
         long n=in.nextLong();
         long sum=0;
         long pw=1;
-        for(; n>0; n/=10)
+        for(; n>0; n/=2)
         {
-            long last=n%10;
+            long last=n%2;
             sum=sum+last*pw;
             pw*=10;
             in.close();
