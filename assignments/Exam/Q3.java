@@ -7,7 +7,7 @@ import java.util.Scanner;
         int n=in.nextInt();
         int star=n;
         for(int i=1;i<=n;i++){
-            int col=5;
+            int col=n;
             int count=1;
             for(;col>=1;col--,count++){
                 if(count==star){
