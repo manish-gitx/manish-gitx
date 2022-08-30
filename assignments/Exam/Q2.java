@@ -16,9 +16,9 @@ public class Q2 {
             pw=pw+1;
         }
         //System.out.println(pw);
-        int num1=n;
-        for(;num1>0;num1=num1/10){
-            int last=num1%10;
+        num=n;
+        for(;num>0;num=num/10){
+            int last=num%10;
             int power=pw;
             sum=1;
             for(;power>=1;power--){
@@ -27,7 +27,7 @@ public class Q2 {
             }
             total=total+sum;
         }
-        //System.out.println(total);
+        System.out.println(total);
         if(n==total){
             System.out.println("true");
         }
