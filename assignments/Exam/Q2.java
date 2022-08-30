@@ -27,7 +27,7 @@ public class Q2 {
             }
             total=total+sum;
         }
-        System.out.println(total);
+        //System.out.println(total);
         if(n==total){
             System.out.println("true");
         }
