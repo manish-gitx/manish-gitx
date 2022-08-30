@@ -6,7 +6,6 @@ public class Q2 {
         int n=in.nextInt();
         int num=n;
         int pw=0;
-        int sum=1;
         int total=0;
         for(;num>0;num=num/10){
             if(n==0){
@@ -20,7 +19,7 @@ public class Q2 {
         for(;num>0;num=num/10){
             int last=num%10;
             int power=pw;
-            sum=1;
+            int sum=1;
             for(;power>=1;power--){
                 sum=sum*last;
 
