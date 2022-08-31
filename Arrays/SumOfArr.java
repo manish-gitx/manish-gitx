@@ -27,6 +27,7 @@ public class SumOfArr {
             int arri[]=input();
             int total=sum(arri);
             System.out.println(total+"ans");
+            in.close();
         }
 
 
