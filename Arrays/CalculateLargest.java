@@ -6,6 +6,7 @@ public class CalculateLargest {
         int n=in.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
+            System.out.println("input "+i);
             arr[i]=in.nextInt();
         }
         in.close();
