@@ -1,3 +1,4 @@
+package Arrays2;
 public class SortArray {
     public static void selectionSort(int[] arr) {
     	int n=arr.length;
