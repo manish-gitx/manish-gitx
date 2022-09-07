@@ -1,3 +1,4 @@
+package Arrays2;
 public class InsertionSort1 {
     public static void insertionSort(int[] arr) {
         int n=arr.length;
