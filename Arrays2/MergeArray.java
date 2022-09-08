@@ -1,4 +1,5 @@
-public class array4 {
+package Arrays2;
+public class MergeArray{
     
     public static void merge(int arr1[], int arr2[]) {
         int i=0,j=0,k=0;
