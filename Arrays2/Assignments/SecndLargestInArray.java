@@ -1,3 +1,4 @@
+package Arrays2.Assignments;
 public class SecndLargestInArray {
     public static int secondLargestElement(int[] arr) {
         int n=arr.length;
