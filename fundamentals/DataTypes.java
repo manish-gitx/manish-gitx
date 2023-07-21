@@ -15,7 +15,7 @@
         boolean b1 =false;
         
                   INFO
-        int a;
+        int a; 
         a=10
         system.out.println(a) // the variable should be assigned in previous lines before using it
         int Var;
